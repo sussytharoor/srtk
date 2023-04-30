@@ -1,0 +1,40 @@
+body {
+  background-image: url(bckgrnd.gif);
+  background-repeat: repeat;
+}
+
+#mainDiv {
+  display: none;
+}
+
+.btn {
+  background: #12c757;
+  background-image: -webkit-linear-gradient(top, #12c757, #b8a32b);
+  background-image: -moz-linear-gradient(top, #12c757, #b8a32b);
+  background-image: -ms-linear-gradient(top, #12c757, #b8a32b);
+  background-image: -o-linear-gradient(top, #12c757, #b8a32b);
+  background-image: linear-gradient(to bottom, #12c757, #b8a32b);
+  -webkit-border-radius: 59;
+  -moz-border-radius: 59;
+  border-radius: 59px;
+  -webkit-box-shadow: 5px 5px 30px #edb90e;
+  -moz-box-shadow: 5px 5px 30px #edb90e;
+  box-shadow: 5px 5px 30px #edb90e;
+  font-family: Courier New;
+  color: #debf11;
+  font-size: 60px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 5rem auto 0 auto;
+}
+
+.pfp {
+  margin: 40px auto;
+  height: 36rem;
+  border-radius: 50%;
+}
+
+.btn:hover {
+  background: #e2fc3c;
+  text-decoration: none;
+}
